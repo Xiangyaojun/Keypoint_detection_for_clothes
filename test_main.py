@@ -17,7 +17,7 @@ annotations_path = {
 
 class InferenceConfig(FashionAI.FashionConfig):
     IMAGES_PER_GPU = 1
-    ROI_MODE = "ROI_MULTI"
+    ROI_MODE = "ROI_SINGLE"
 
 test_model = "val"
 check_model_num = "0030"
